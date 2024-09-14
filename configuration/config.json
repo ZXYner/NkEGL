@@ -1,0 +1,280 @@
+{
+  "nkegl": {
+    "20NG": {
+      "fileName": "../data/20NG.mat",
+      "outputFileName": "../results/20NG.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        64
+      ],
+      "lr": 0.01,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 16,
+      "ginLayerNode": [
+        16
+      ],
+      "loops": 400,
+      "alpha": 0.8
+    },
+    "Birds": {
+      "fileName": "../data/Birds.mat",
+      "outputFileName": "../results/Birds.mat",
+      "kLabel": 2,
+      "hiddenLayerNumNodes": [
+        64
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 32,
+      "ginLayerNode": [
+        128
+      ],
+      "loops": 1000,
+      "alpha": 0.6
+    },
+    "CAL500": {
+      "fileName": "../data/CAL500.mat",
+      "outputFileName": "../results/CAL500.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        64,
+        64
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 256,
+      "ginLayerNode": [
+        256
+      ],
+      "loops": 1000,
+      "alpha": 0.8
+    },
+    "CHD_49": {
+      "fileName": "../data/CHD_49.mat",
+      "outputFileName": "../results/CHD_49.mat",
+      "kLabel": 4,
+      "hiddenLayerNumNodes": [
+        32,
+        64
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 64,
+      "ginLayerNode": [
+        64
+      ],
+      "loops": 2000,
+      "alpha": 0.8
+    },
+    "Emotions": {
+      "fileName": "../data/Emotions.mat",
+      "outputFileName": "../results/Emotions.mat",
+      "kLabel": 2,
+      "hiddenLayerNumNodes": [
+        32
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 32,
+      "ginLayerNode": [
+        128
+      ],
+      "loops": 2500,
+      "alpha": 0.7
+    },
+    "Enron": {
+      "fileName": "../data/Enron.mat",
+      "outputFileName": "../results/Enron.mat",
+      "kLabel": 4,
+      "hiddenLayerNumNodes": [
+        64
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 64,
+      "ginLayerNode": [
+        128
+      ],
+      "loops": 700,
+      "alpha": 0.8
+    },
+    "Flags": {
+      "fileName": "../data/Flags.mat",
+      "outputFileName": "../results/Flags.mat",
+      "kLabel": 4,
+      "hiddenLayerNumNodes": [
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 64,
+      "ginLayerNode": [
+        128
+      ],
+      "loops": 3500,
+      "alpha": 0.9
+    },
+    "Foodtruck": {
+      "fileName": "../data/Foodtruck.mat",
+      "outputFileName": "../results/Foodtruck.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        32,
+        8
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 32,
+      "ginLayerNode": [
+        32
+      ],
+      "loops": 2000,
+      "alpha": 0.9
+    },
+    "Genbase": {
+      "fileName": "../data/Genbase.mat",
+      "outputFileName": "../results/Genbase.mat",
+      "kLabel": 4,
+      "hiddenLayerNumNodes": [
+        64
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 32,
+      "ginLayerNode": [
+        64
+      ],
+      "loops": 3500,
+      "alpha": 0.9
+    },
+    "Image": {
+      "fileName": "../data/Image.mat",
+      "outputFileName": "../results/Image.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        128
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 8,
+      "ginLayerNode": [
+        64
+      ],
+      "loops": 2000,
+      "alpha": 0.9
+    },
+    "Medical": {
+      "fileName": "../data/Medical.mat",
+      "outputFileName": "../results/Medical.mat",
+      "kLabel": 5,
+      "hiddenLayerNumNodes": [
+        64
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 128,
+      "ginLayerNode": [
+        128
+      ],
+      "loops": 3000,
+      "alpha": 0.7
+    },
+    "ReutersK500": {
+      "fileName": "../data/ReutersK500.mat",
+      "outputFileName": "../results/ReutersK500.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        32
+      ],
+      "lr": 0.01,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 32,
+      "ginLayerNode": [
+        32
+      ],
+      "loops": 800,
+      "alpha": 0.8
+    },
+    "Scene": {
+      "fileName": "../data/Scene.mat",
+      "outputFileName": "../results/Scene.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        128
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 16,
+      "ginLayerNode": [
+        16
+      ],
+      "loops": 1500,
+      "alpha": 0.8
+    },
+    "Tmc2007-500": {
+      "fileName": "../data/Tmc2007-500.mat",
+      "outputFileName": "../results/Tmc2007-500.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        64
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 64,
+      "ginLayerNode": [
+        128
+      ],
+      "loops": 2000,
+      "alpha": 0.8
+    },
+    "WaterQuality": {
+      "fileName": "../data/WaterQuality.mat",
+      "outputFileName": "../results/WaterQuality.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        128,128
+      ],
+       "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 128,
+      "ginLayerNode": [
+        64,32
+      ],
+      "loops": 2000,
+      "alpha": 0.8
+    },
+    "Yeast": {
+      "fileName": "../data/Yeast.mat",
+      "outputFileName": "../results/Yeast.mat",
+      "kLabel": 3,
+      "hiddenLayerNumNodes": [
+        128
+      ],
+      "lr": 0.001,
+      "activator": "s",
+      "ginLayerNum": 2,
+      "ginOutFeature": 16,
+      "ginLayerNode": [
+        32,16
+      ],
+      "loops": 2000,
+      "alpha": 0.7
+    }
+  }
+}
